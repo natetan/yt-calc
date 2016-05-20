@@ -15,6 +15,7 @@ function getTotal() {
 	var tip = document.querySelector(".tip").value;
 	if (sub == "" || tip == "") {
 		document.querySelector("#answer").innerHTML = "No input. Cannot calculate :o";
+		document.querySelector("#sub-answer").innerHTML = "";
 	} else {
 		var total = calculate(parseInt(sub), parseInt(tip));
 		document.querySelector("#answer").innerHTML = "Your total is $" + total;
