@@ -1,0 +1,35 @@
+body {
+	font-family: arial, Helvetica;
+	text-align: center;
+	background: url("images/calc.jpg");
+}
+
+.main {
+	width: 80%;
+	margin: 3% auto 3% auto;
+	padding: 3%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#btn {
+	margin-top: 10px;
+}
+
+#tip, #sub {
+	padding: 3px;
+}
+
+#answer, #sub-answer {
+	margin-top: 30px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#answer {
+	font-size: 31px;
+}
+
+#sub-answer {
+	font-size: 22px;
+}
