@@ -24,4 +24,4 @@
 					Math.round((total - parseInt(sub)) * 100) / 100;
 		}
 	}
-});
+}) ();
